@@ -1,0 +1,14 @@
+name: DivineMace
+version: '${version}'
+main: dev.divinemace.DivineMacePlugin
+api-version: '26.1'
+description: Divine Thunder Mace - skok, Sila III i piorun przy trafieniu.
+commands:
+  divinemace:
+    description: Daje Divine Thunder Mace
+    usage: /divinemace give [gracz]
+    aliases: [dmace]
+permissions:
+  divinemace.give:
+    description: Pozwala uzywac /divinemace give
+    default: op
